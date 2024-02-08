@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <title>Taufik Hidayat | Homework Basic Javascript</title>
+
+    <style>
+        body{
+            background-image: url('assets/img/pattern4.png');
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center mt-5">
+            <h1>Homework Basic Javascript</h1>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home"
+                            type="button" role="tab" aria-controls="pills-home" aria-selected="true">Registrasi</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile"
+                            type="button" role="tab" aria-controls="pills-profile" aria-selected="false">List Pendaftar</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-6 offset-lg-3 col-md-12 col-sm-12">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <div class="card p-5 mb-5">
+                            <form action="" method="post">
+                                <label for="nama">Your Name :</label>
+                                <input type="text" name="nama" id="nama" class="form-control" placeholder="Enter Your Name" autocomplete="off"><br>
+                                <label for="umur">Your Age :</label>
+                                <input type="number" name="umur" id="umur" class="form-control" placeholder="Enter Your Age" autocomplete="off"><br>
+                                <label for="uang">Your Money :</label>
+                                <input type="number" name="uang" id="uang" class="form-control" placeholder="Enter Your Money" autocomplete="off"><br>
+                                <button type="button" name="sumbit" class="btn btn-success btn-sm" onclick="sumbit()">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="card p-5 mb-5">
+                            <h4>List Pendaftar</h4>
+                            <ol>
+                                <li>
+                                    <ul>
+                                        <li>Name</li>
+                                        <li>Age</li>
+                                        <li>Money</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>Name</li>
+                                        <li>Age</li>
+                                        <li>Money</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <ul>
+                                        <li>Name</li>
+                                        <li>Age</li>
+                                        <li>Money</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="assets/js/jquery.slim.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
